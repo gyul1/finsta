@@ -9,11 +9,20 @@
 import UIKit
 import AlamofireImage
 
-class CameraViewController: UIViewController, UIImagePickerControllerDelegate{
+class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
     @IBOutlet weak var imageView: UIImageView!
     
     @IBOutlet weak var commentField: UITextField!
+    
+   
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
     
     @IBAction func submitButton(_ sender: Any) {
     }
@@ -39,14 +48,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate{
         dismiss(animated: true, completion: nil)
         
     }
-            
-       
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     
  
     /*
