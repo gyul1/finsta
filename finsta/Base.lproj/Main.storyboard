@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="finsta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="finsta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,6 +155,11 @@
                         <viewLayoutGuide key="safeArea" id="Ntg-aL-6pq"/>
                     </view>
                     <navigationItem key="navigationItem" id="EUp-dz-gNM">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="2iH-zU-fcp">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="j6F-6b-1wA" id="w3E-Bq-Qy3"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="insta_camera_btn" id="ulN-gG-4o7">
                             <connections>
                                 <segue destination="Bay-UZ-Xil" kind="presentation" id="sXh-A7-zTx"/>
@@ -221,7 +226,7 @@
         <!--Navigation Controller-->
         <scene sceneID="3wl-yx-lZc">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CDn-fL-xCD" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="CDn-fL-xCD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="43w-Nv-PKl">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
