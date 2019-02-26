@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4432BEDA2224B2B900424589 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432BED92224B2B900424589 /* CommentCell.swift */; };
 		4493152CB0A3D1A4F33911DC /* Pods_finsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BFCC7C120E9E2471D84CF9 /* Pods_finsta.framework */; };
 		44B3EB262218D63E005DDDDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3EB252218D63E005DDDDC /* AppDelegate.swift */; };
 		44B3EB2B2218D63E005DDDDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B3EB292218D63E005DDDDC /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		243B788FAC657A155E6BF2CD /* Pods-finsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-finsta/Pods-finsta.release.xcconfig"; sourceTree = "<group>"; };
+		4432BED92224B2B900424589 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		44B3EB222218D63E005DDDDC /* finsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B3EB252218D63E005DDDDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B3EB2A2218D63E005DDDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				44B3EB252218D63E005DDDDC /* AppDelegate.swift */,
+				4432BED92224B2B900424589 /* CommentCell.swift */,
 				44B3EB292218D63E005DDDDC /* Main.storyboard */,
 				44B3EB2C2218D641005DDDDC /* Assets.xcassets */,
 				44B3EB2E2218D641005DDDDC /* LaunchScreen.storyboard */,
@@ -228,6 +231,7 @@
 				44B75BC3221A4939003A09E1 /* PostTableViewCell.swift in Sources */,
 				44EAEA0B2218DD17005686B2 /* FeedViewController.swift in Sources */,
 				44B3EB262218D63E005DDDDC /* AppDelegate.swift in Sources */,
+				4432BEDA2224B2B900424589 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
