@@ -8,5 +8,7 @@ target 'finsta' do
   # Pods for finsta
   pod "Parse"
   pod "AlamofireImage"
+  pod "MessageInputBar"
+
 
 end
