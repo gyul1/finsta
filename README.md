@@ -45,3 +45,6 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='blob:https://imgur.com/9444f87b-9c46-45a4-9d62-9e25f818c96f'>
+
+
+https://imgur.com/BqzZxLE
