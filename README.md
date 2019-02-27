@@ -24,3 +24,24 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 I provided a video walkthrough
 Video Walkthrough = 'https://i.imgur.com/5lOZUZT.mp4'
+
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [X] User stays logged in across restarts. (1pt)
+- [X] User can log out. (1pt)
+- [X] User can view comments on a post. (3pts)
+- [X] User can add a new comment. (5pts)
+
+The following **bonus** features are implemented:
+
+- [ ] User can add a profile picture. (2pts)
+- [ ] Profile pictures are shown for posts and comments. (2pts)
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='blob:https://imgur.com/9444f87b-9c46-45a4-9d62-9e25f818c96f' title='Video Walkthrough' width='' alt='Video Walkthrough' />
